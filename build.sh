@@ -1,0 +1,6 @@
+cd frontend  # В директории frontend...
+docker build -t kavnsk54/taski_frontend .  # ...сбилдить образ, назвать его taski_frontend
+cd ../backend  # То же в директории backend...
+docker build -t kavnsk54/taski_backend .
+cd ../gateway  # ...то же и в gateway
+docker build -t kavnsk54/taski_gateway .
